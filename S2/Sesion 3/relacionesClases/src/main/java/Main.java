@@ -1,6 +1,4 @@
-import models.Course;
-import models.Department;
-import models.Teacher;
+import models.*;
 
 public class Main {
 
@@ -14,6 +12,10 @@ public class Main {
         Course course = new Course();
         Teacher duran = new Teacher();
         Department fia = new Department();
+        Car car = new Car();
+
+        Dog perritoo = new Dog();
+        Cat gatitoo = new Cat();
 
         course.setName("POO I");
         duran.setName("Jose Duran");
@@ -32,6 +34,28 @@ public class Main {
         for (Teacher teacher : fia.getTeachers()){
             System.out.println(teacher.getName());
         }
+
+        System.out.println();
+
+        perritoo.eat();
+        perritoo.makeNoise();
+        perritoo.setNombre("Puki");
+        perritoo.myName();
+
+        System.out.println();
+
+        gatitoo.eat();
+        gatitoo.makeNoise();
+        gatitoo.setNombre("Michu");
+        gatitoo.myName();
+
+        System.out.println();
+
+        car.turnCarOn();
+        car.turnCarOff();
+
+
+
 
     }
 
