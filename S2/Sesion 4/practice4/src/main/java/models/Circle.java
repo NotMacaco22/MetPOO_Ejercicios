@@ -2,46 +2,43 @@ package models;
 
 public class Circle {
 
-    private float radius;
-    private float circumference;
-    private float area;
+    private double radius;
+    private double circumference;
+    private double area;
 
     //Empty Constructor
     public Circle() {
     }
 
     //Constructor
-    public Circle(float radius, float circumference, float area) {
+    public Circle(double radius, double circumference, double area) {
         this.radius = radius;
         this.circumference = circumference;
         this.area = area;
     }
 
-    public Circle(float radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
     //Getters and Setters
-    public float getRadius() {
+    public double getRadius() {
         return radius;
     }
-    public void setRadius(float radius) {
+    public void setRadius(double radius) {
         this.radius = radius;
     }
-    public float getCircumference() {
+    public double getCircumference() {
         return circumference;
     }
-    public void setCircumference(float circumference) {
+    public void setCircumference(double circumference) {
         this.circumference = circumference;
     }
-    public float getArea() {
+    public double getArea() {
         return area;
     }
-    public void setArea(float area) {
+    public void setArea(double area) {
         this.area = area;
     }
-
-
-
 
 }
