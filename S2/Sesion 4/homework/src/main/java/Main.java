@@ -103,7 +103,7 @@ public class Main {
 
         System.out.print("Tittle: ");
         String titulo = scanner.nextLine();
-        while (titulo.isEmpty() || titulo.replace(" ", "").isEmpty()){
+        while (titulo.isEmpty() || titulo.isBlank()) {
             System.out.println();
             System.out.println("Tittle is a mandatory - Can't be empty- Try Again");
             System.out.print("Tittle: ");
@@ -122,7 +122,7 @@ public class Main {
 
         System.out.print("Genre: ");
         String genero = scanner.nextLine();
-        while (genero.isEmpty() || genero.replace(" ", "").isEmpty()){
+        while (genero.isEmpty() || genero.isBlank()) {
             System.out.println("\nGenre is a mandatory - Can't be empty- Try Again");
             System.out.print("Tittle: ");
             genero = scanner.nextLine();
@@ -132,7 +132,7 @@ public class Main {
 
         System.out.print("Director: ");
         String creador = scanner.nextLine();
-        while (creador.isEmpty() || creador.replace(" ", "").isEmpty()){
+        while (creador.isEmpty() || creador.isBlank()) {
             System.out.println("\nDirector is a mandatory - Can't be empty- Try Again");
             System.out.println("Director: ");
             creador = scanner.nextLine();
