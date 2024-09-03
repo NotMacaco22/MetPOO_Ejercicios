@@ -12,10 +12,10 @@ public class Main {
         int menuOpc = 0;
 
         while (menuOpc != 3) {
-            System.out.println("~ Menu ~");
+            System.out.println("\n~ Menu ~\n");
             System.out.println("1. Class Account Practice");
             System.out.println("2. Class Series Practice");
-            System.out.println("3. Exit");
+            System.out.println("3. Exit\n");
             System.out.print("->"); menuOpc = sc.nextInt();
 
             switch (menuOpc) {
