@@ -16,7 +16,7 @@ public class Main {
             System.out.println("1. Class Account Practice");
             System.out.println("2. Class Series Practice");
             System.out.println("3. Exit\n");
-            System.out.print("->"); menuOpc = sc.nextInt();
+            System.out.print("-> "); menuOpc = sc.nextInt();
 
             switch (menuOpc) {
                 case 1:
