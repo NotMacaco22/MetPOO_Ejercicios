@@ -101,12 +101,12 @@ public class Main {
         System.out.println("Complete the next information: ");
         System.out.println();
 
-        System.out.print("Tittle: ");
+        System.out.print("Title: ");
         String titulo = scanner.nextLine();
         while (titulo.isEmpty() || titulo.isBlank()) {
             System.out.println();
-            System.out.println("Tittle is a mandatory - Can't be empty- Try Again");
-            System.out.print("Tittle: ");
+            System.out.println("Title is a mandatory - Can't be empty- Try Again");
+            System.out.print("Title: ");
             titulo = scanner.nextLine();
             System.out.println();
         }
@@ -124,7 +124,7 @@ public class Main {
         String genero = scanner.nextLine();
         while (genero.isEmpty() || genero.isBlank()) {
             System.out.println("\nGenre is a mandatory - Can't be empty- Try Again");
-            System.out.print("Tittle: ");
+            System.out.print("Genre: ");
             genero = scanner.nextLine();
         }
         builder.setGenre(genero);

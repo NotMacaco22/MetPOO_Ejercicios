@@ -77,6 +77,6 @@ public class Serie {
             showStatus = "Sumbitted";
         } else {showStatus = "NonSumbitted";}
 
-        return "Serie Info. | Tittle: " + title + " | Number Of Seasons: " + totalSeasons + " | Sumbitted?: " + showStatus +" | Genre: " + genre + " | Director: " + director;
+        return "Serie Info. | Title: " + title + " | Number Of Seasons: " + totalSeasons + " | Sumbitted?: " + showStatus +" | Genre: " + genre + " | Director: " + director;
     }
 }
