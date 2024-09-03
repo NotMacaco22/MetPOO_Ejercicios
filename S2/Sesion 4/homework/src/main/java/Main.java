@@ -1,15 +1,11 @@
 import models.BankAccount;
-import models.SerieBuilder;
+import models.Serie;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        var lol = new SerieBuilder().setDirector("Tuma").setTotalSeasons(3).build();
-
 
         Main main = new Main();
         Scanner sc = new Scanner(System.in);
@@ -98,6 +94,62 @@ public class Main {
     }
 
     public void secondExercise(){
+        Scanner scanner = new Scanner(System.in);
+        Serie.Builder builder = new Serie.Builder();
+
+        System.out.println("~ Series Database ~");
+        System.out.println("Complete the next information: ");
+        System.out.println();
+
+        System.out.print("Tittle: ");
+        String titulo = scanner.nextLine();
+        while (titulo.isEmpty()){
+            System.out.println();
+            System.out.println("Tittle is a mandatory - Can't be empty- Try Again");
+            System.out.print("Tittle: ");
+            titulo = scanner.nextLine();
+            System.out.println();
+        }
+        builder.setTitle(titulo);
+
+
+        System.out.print("# of Seasons: ");
+        String temporadasInput = scanner.nextLine();
+        if (!temporadasInput.isEmpty()) {
+            int finalSeasons = Integer.parseInt(temporadasInput);
+            builder.setTotalSeasons(finalSeasons);}
+
+
+        System.out.print("Genre: ");
+        String genero = scanner.nextLine();
+        while (genero.isEmpty()){
+            System.out.println("\nGenre is a mandatory - Can't be empty- Try Again");
+            System.out.print("Tittle: ");
+            genero = scanner.nextLine();
+        }
+        builder.setGenre(genero);
+
+
+        System.out.print("Director: ");
+        String creador = scanner.nextLine();
+        while (creador.isEmpty()){
+            System.out.println("\nDirector is a mandatory - Can't be empty- Try Again");
+            System.out.println("Director: ");
+            creador = scanner.nextLine();
+
+        }
+        builder.setDirector(creador);
+
+        System.out.print("Has the serie been submitted? (true/false): ");
+        String entregadoInput = scanner.nextLine();
+        if (!entregadoInput.isEmpty()) {
+            boolean submittedFinal = Boolean.parseBoolean(entregadoInput);
+            builder.setSumbitted(submittedFinal);}
+
+        Serie serie = builder.build();
+
+        System.out.println(serie.toString());
+
 
     }
 
