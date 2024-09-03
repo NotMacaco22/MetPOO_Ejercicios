@@ -1,32 +1,58 @@
 package models;
 
-
-/*
-*
-* Crear una clase llamada Serie con las siguientes características:
-
-Sus atributos son titulo, numero de temporadas, entregado, genero y creador.
-
-Por defecto, el numero de temporadas es de 3 temporadas y entregado false. El resto de atributos serán valores por defecto según el tipo del atributo.
-
-Los constructores que se implementaran serán:
-
-Un constructor por defecto.
-Un constructor con el titulo y creador. El resto por defecto.
-Un constructor con todos los atributos, excepto de entregado.
-Los métodos que se implementara serán:
-
-Métodos get de todos los atributos, excepto de entregado.
-Métodos set de todos los atributos, excepto de entregado.
-Sobrescribe los métodos toString.
-*
-* */
-
 public class Serie {
     private String title;
-    private int totalSeasons;
-    private boolean sumbitted;
+    private int totalSeasons ;
+    private boolean isSumbitted;
     private String genre;
-    
+    private String director;
 
+    public Serie(String title, int totalSeasons, boolean isSumbitted, String genre, String director) {
+        this.title = title;
+        this.totalSeasons = totalSeasons;
+        this.isSumbitted = isSumbitted;
+        this.genre = genre;
+        this.director = director;
+    }
+
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public int getTotalSeasons() {
+        return totalSeasons;
+    }
+
+    public void setTotalSeasons(int totalSeasons) {
+        this.totalSeasons = totalSeasons;
+    }
+
+    public boolean isSumbitted() {
+        return isSumbitted;
+    }
+
+    public void setSumbitted(boolean sumbitted) {
+        isSumbitted = sumbitted;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
 }

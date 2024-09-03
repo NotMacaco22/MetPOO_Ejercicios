@@ -1,4 +1,5 @@
 import models.BankAccount;
+import models.SerieBuilder;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
@@ -6,6 +7,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+        var lol = new SerieBuilder().setDirector("Tuma").setTotalSeasons(3).build();
+
 
         Main main = new Main();
         Scanner sc = new Scanner(System.in);
