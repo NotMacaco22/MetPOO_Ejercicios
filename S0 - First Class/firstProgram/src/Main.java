@@ -1,4 +1,4 @@
-// Ejercicio 1
+    // Ejercicio 1
 
 import models.Persona;
 
@@ -63,7 +63,6 @@ public class Main {
 
         System.out.println("Dime la edad: ");
         cesar.setEdad(sc.nextInt());
-
         System.out.println(karen.mostrar());
         System.out.println(cesar.toString());
         //System.out.println(silvio);
