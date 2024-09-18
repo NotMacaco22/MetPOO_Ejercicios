@@ -39,6 +39,8 @@ public class StudentDao implements Session9 {
             for (Student student : students) {
                 if (student.getName().equals(name)) {
                     System.out.println(student);
+                    // Without this break it will always show couldn't find message
+                    break;
                 }
                 System.out.println("Couldn't find student with name " + name);
             }
@@ -54,6 +56,25 @@ public class StudentDao implements Session9 {
         }
     }
 
+    public void showAges() {
+        for (Student student : students) {
+            System.out.println("Name: " + student.getName() + " | Age:" + student.getAge());
+        }
+    }
+
+    public float averageAge() {
+        float average = 0;
+        int count = 0;
+        for (Student student : students) {
+            try {
+                average += student.getAge();
+                count++;
+            } catch (Exception e) {
+                System.out.println("An error occurs trying to find student with age " + student.getAge());
+            }
+        }
+        return average/count;
+    }
 
 
 

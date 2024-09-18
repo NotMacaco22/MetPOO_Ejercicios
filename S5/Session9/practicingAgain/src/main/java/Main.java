@@ -12,7 +12,8 @@ public class Main {
         String menu = "1. Add Student\n"
                 + "2. Show All Students\n"
                 + "3. Search Student\n"
-                + "4. Exit\n";
+                + "4. Average Age\n"
+                + "5. Exit\n";
 
         int opc = 0;
 
@@ -47,6 +48,12 @@ public class Main {
                         break;
 
                     case 4:
+                        System.out.println(" ~ All Students ~");
+                        studentDao.showAges();
+                        System.out.println("\nAverage Student Age: " + studentDao.averageAge());
+                        break;
+
+                    case 5:
                         System.out.println("See youu <3");
                         break;
 
