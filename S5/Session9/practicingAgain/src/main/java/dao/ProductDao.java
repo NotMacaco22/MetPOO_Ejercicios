@@ -23,6 +23,5 @@ public class ProductDao implements Session9 {
                 System.out.println(product);
             }
         }
-
     }
 }

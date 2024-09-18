@@ -21,6 +21,7 @@ public class Main {
 
             System.out.println(menu);
             System.out.print("Enter your choice: ");
+
             try{
                 opc = scanner.nextInt();
 
@@ -61,16 +62,9 @@ public class Main {
                         System.out.println("Not valid option - Please try again");
                         break;
                 }
-
             } catch (Exception e){
                 System.out.println(e.getMessage());
             }
-
-
-
-
         }
-
-
     }
 }
