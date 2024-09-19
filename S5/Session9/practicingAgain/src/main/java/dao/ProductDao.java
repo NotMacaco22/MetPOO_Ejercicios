@@ -12,16 +12,27 @@ public class ProductDao implements Session9 {
     @Override
     public boolean store(Object obj) {
         Product product = (Product) obj;
-        products.add(product);
-        return true;
+
+        try {
+            products.add(product);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     @Override
     public void findByName(String name) {
-        for (Product product : products) {
-            if (product.getName().equals(name)) {
-                System.out.println(product);
+        try {
+            for (Product product : products) {
+                if (product.getName().equals(name)) {
+                    System.out.println(product);
+                    break;
+                }
+                System.out.println("Couldn't find product with name: " + product.getName());
             }
+        } catch (Exception e) {
+            System.out.printf("An error occurs trying to find product with the name " + name + "\nError: " + e.getMessage());
         }
     }
 }

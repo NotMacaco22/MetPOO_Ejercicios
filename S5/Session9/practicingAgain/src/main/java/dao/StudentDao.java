@@ -45,7 +45,7 @@ public class StudentDao implements Session9 {
                 System.out.println("Couldn't find student with name " + name);
             }
         } catch (Exception e) {
-            System.out.println("An error occurs trying to find student with name " + name + "\nError " + e.getMessage());
+            System.out.println("An error occurs trying to find student with name " + name + "\nError: " + e.getMessage());
         }
 
     }
