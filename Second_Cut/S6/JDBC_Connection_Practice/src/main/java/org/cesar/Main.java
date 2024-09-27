@@ -3,9 +3,7 @@ package org.cesar;
 import java.sql.*;
 
 public class Main {
-    public Main() {
-    }
-
+    
     public static void main(String[] args) {
 
         // To show the drivers installed, we only care about postgresql driver, if the driver is printed on the terminal then no problem :)
