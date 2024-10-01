@@ -21,7 +21,7 @@ public class ConnectionDataBase {
         }
     }
 
-    // Synchronized, means that only one thread can execute at once
+    // Synchronized, means that only one thread can execute it at once, so, only one thread can a new instance if it doesn't  exist.
     public static synchronized ConnectionDataBase getInstance() {
         if (instance == null) {
             instance = new ConnectionDataBase();
