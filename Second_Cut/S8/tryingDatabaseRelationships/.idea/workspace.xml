@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d2558f1-77ec-409a-8838-1ade3f92f9d0" name="Changes" comment="" />
+    <list default="true" id="1d2558f1-77ec-409a-8838-1ade3f92f9d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cash/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cash/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cash/models/Major.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cash/models/Major.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cash/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cash/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/cash/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/cash/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/cash/models/Major.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/cash/models/Major.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/cash/models/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/cash/models/Student.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +35,12 @@
     &quot;assignee&quot;: &quot;NotMacaco22&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NotMacaco22/MetPOO_Ejercicios.git",
-    "accountId": "1d62f050-3f77-48ef-aeff-370d87042832"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NotMacaco22/MetPOO_Ejercicios&quot;,
+    &quot;accountId&quot;: &quot;1d62f050-3f77-48ef-aeff-370d87042832&quot;
   }
-}]]></component>
+}</component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
@@ -44,22 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/cesarsilva/Desktop/MetPOO_Ejercicios/Second_Cut/S8/tryingDatabaseRelationships",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cesarsilva/Desktop/MetPOO_Ejercicios/Second_Cut/S8/tryingDatabaseRelationships&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cash.Main" />
@@ -99,6 +107,11 @@
       <workItem from="1728409025880" duration="9550000" />
       <workItem from="1728431334947" duration="2501000" />
       <workItem from="1728436187274" duration="24000" />
+      <workItem from="1728917388095" duration="36000" />
+      <workItem from="1728917711564" duration="441000" />
+      <workItem from="1728918193280" duration="676000" />
+      <workItem from="1728933709414" duration="3193000" />
+      <workItem from="1728936969866" duration="337000" />
     </task>
     <servers />
   </component>

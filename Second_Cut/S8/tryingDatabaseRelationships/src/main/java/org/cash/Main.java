@@ -40,14 +40,18 @@ public class Main {
 //        MajorDAO majorDAO = new MajorDAO();
 //        majorDAO.saveMajor(major);
 
-        FacultyDAO facultyDAO = new FacultyDAO();
+//        FacultyDAO facultyDAO = new FacultyDAO();
 //        Faculty faculty = new Faculty("FIA");
 //        facultyDAO.saveFaculty(faculty);
-//
-        System.out.println(facultyDAO.search("FIA"));
-        Major major = new Major("Arqui", facultyDAO.search("FIA"));
-        MajorDAO majorDAO = new MajorDAO();
-        majorDAO.saveMajor(major);
+////
+//        System.out.println(facultyDAO.search("FIA"));
+//        Major major = new Major("Sistemas", facultyDAO.search("FIA"));
+//        MajorDAO majorDAO = new MajorDAO();
+////        majorDAO.saveMajor(major);
+
+        Faculty faculty = new Faculty("FIA");
+        FacultyDAO facultyDAO = new FacultyDAO();
+        facultyDAO.saveFaculty(faculty);
 
 
     }

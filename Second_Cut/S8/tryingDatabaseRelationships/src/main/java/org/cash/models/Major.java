@@ -10,6 +10,8 @@ import lombok.ToString;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Entity
 @ToString
 @EqualsAndHashCode
@@ -40,4 +42,7 @@ public class Major {
         this.name = name;
         this.faculty = faculty;
     }
+
+    @OneToMany(mappedBy = "major")
+    private List<StudentMajors> students;
 }

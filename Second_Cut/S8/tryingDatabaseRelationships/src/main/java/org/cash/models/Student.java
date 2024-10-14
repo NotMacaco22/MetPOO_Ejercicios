@@ -17,6 +17,9 @@ import lombok.ToString;
 import lombok.EqualsAndHashCode;
 
 import java.time.LocalDate;
+import java.util.List;
+
+import jakarta.persistence.OneToMany;
 
 @Entity
 @ToString @EqualsAndHashCode
@@ -52,5 +55,8 @@ public class Student {
     @Email
     @Column(nullable = false, unique = true)
     private String email;
+
+    @OneToMany(mappedBy = "student")
+    private List<StudentMajors> careers;
 
 }
